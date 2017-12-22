@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.handslife.dumbbfa.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/fileNameBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/myFileName"
+            android:inputType="text"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/fileBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnChangeFileName"
+            android:layout_weight="0.5"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/inputLbl"
+            android:layout_weight="0.5"
+            android:labelFor="@id/newStringBox"/>
+
+        <EditText
+            android:id="@+id/newStringBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:maxLength="8"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enterBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btnEnterString"/>
+
+    <TextView
+        android:id="@+id/outPutResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

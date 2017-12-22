@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dumb BFA</string>
+    <string name="inputLbl">Next pass: </string>
+    <string name="btnEnterString">Enter</string>
+    <string name="myFileName">failedPasses</string>
+    <string name="seperator">;</string>
+    <string name="fileName">Enter file name</string>
+    <string name="dataFetchedMsg">Data Fetched from: </string>
+    <string name="btnChangeFileName">Change current file: </string>
+    <string name="fileChangedMsg">New working file loaded: </string>
+</resources>
